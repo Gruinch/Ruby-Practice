@@ -1,6 +1,9 @@
 puts "計算をはじめます"
-input_key=gets
-input_key=gets
+puts"2つの値を入力してください"
+
+a =gets.to_i
+b =gets.to_i
+
 puts"計算結果を出力します"
-puts a"#{input_key}"*b"#{input_key}"
+puts "a*b=#{a*b}"
 puts"計算を終了します"
