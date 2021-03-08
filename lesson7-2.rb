@@ -1,11 +1,7 @@
 puts "何回計算を繰り返しますか？"
 i=gets.to_i
 num=1
-while i<=num
-   if i==i
-     puts "計算を終了します"
-     break
-   end 
+while num<=i
  puts "#{num}回目の計算"
  num+=1
  puts "2つの値を入力してください"
@@ -16,4 +12,6 @@ while i<=num
  puts "a-b=#{a-b}"
  puts "a*b=#{a*b}"
  puts "a/b=#{a/b}"
-end 
+end
+
+puts "計算を終了します"
